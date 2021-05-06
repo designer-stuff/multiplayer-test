@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+  background-color: #f1f1f1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #000;
+}
+
+.btn {
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+button {
+  background-color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  box-shadow: 0 3px 6px rgba(199, 199, 199, 0.5);
+  transition: transform 0.5s ease-out;
+}
+
+button:not(:last-child) {
+  margin-right: 1rem;
+}
+
+button:active {
+  transform: scale(0.9);
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+input {
+  border: none;
+  padding: 1rem;
+}
+
+input:not(:last-child) {
+  margin-right: 1rem;
+}
+
+input:disabled {
+  background: rgba(199, 199, 199, 0.5);
+  cursor: not-allowed;
+}
+
+p span {
+  font-size: 0.5rem;
+}
+
+.players {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.player-content {
+  display: flex;
+  flex-direction: column;
+}
